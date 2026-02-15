@@ -2,5 +2,5 @@ load("render.star", "render")
 
 def main():
     return render.Root(
-        child = render.Text("Hello, Tidbyt!")
+        child = render.Text("Goodby, Tidbyt!")
     )

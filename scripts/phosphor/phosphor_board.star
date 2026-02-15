@@ -7,7 +7,7 @@ ISSUES_URL = "https://api.github.com/repos/phosphor-icons/homepage/issues"
 ISSUES_PARAMS = {
     "sort": "created",
     "direction": "desc",
-    "per_page": "100",
+    "per_page": "20",
 }
 REPEAT_FRAMES = 60
 
@@ -48,28 +48,28 @@ def main():
                             transforms = [],
                             curve = "ease_in_out",
                         ),
-                        animation.Keyframe(
-                            percentage = 0.165,
-                            transforms = [
-                                animation.Translate(-32, -20),
-                                animation.Scale(x = 2.0, y = 2.0),
-                            ],
-                        ),
-                        animation.Keyframe(
-                            percentage = 0.33,
-                            transforms = [],
-                        ),
-                        animation.Keyframe(
-                            percentage = 0.495,
-                            transforms = [
-                                animation.Translate(-32, 20),
-                                animation.Scale(x = 2.5, y = 2.5),
-                            ],
-                        ),
-                        animation.Keyframe(
-                            percentage = 0.66,
-                            transforms = [],
-                        ),
+                        #animation.Keyframe(
+                        #    percentage = 0.165,
+                        #    transforms = [
+                        #        animation.Translate(-32, -20),
+                        #        animation.Scale(x = 2.0, y = 2.0),
+                        #    ],
+                        #),
+                        #animation.Keyframe(
+                        #    percentage = 0.33,
+                        #    transforms = [],
+                        #),
+                        #animation.Keyframe(
+                        #    percentage = 0.495,
+                        #    transforms = [
+                        #        animation.Translate(-32, 20),
+                        #        animation.Scale(x = 2.5, y = 2.5),
+                        #    ],
+                        #),
+                        #animation.Keyframe(
+                        #    percentage = 0.66,
+                        #    transforms = [],
+                        #),
                         animation.Keyframe(
                             percentage = 0.825,
                             transforms = [
