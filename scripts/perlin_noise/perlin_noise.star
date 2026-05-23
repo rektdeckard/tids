@@ -1,6 +1,6 @@
 """
-Applet: Noise
-Summary: Animated digital noise
+Applet: Perlin Noise
+Summary: Perlin noise for your Tronbyt
 Description: Set the vibe with beautiful, complex, colorful animated noise produced with math!
 Author: rektdeckard
 """
@@ -15,7 +15,7 @@ SCALE = 40
 SCALE_T = "40"
 SPEED = 1 / 30
 HUE = "#EB6E21"
-FRAMES = 80
+FRAMES = 160
 FRAMES_PER_VIEW = 1
 
 def get_schema():
